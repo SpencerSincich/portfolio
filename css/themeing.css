@@ -19,9 +19,10 @@ body {
 }
 
 .aboveBorder {
-  clear: none;
+  margin-bottom: -30px;
   text-align: right;
   color: white;
+  font-size: 1em;
 }
 
 main {
