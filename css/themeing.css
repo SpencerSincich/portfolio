@@ -12,11 +12,10 @@ body {
 }
 
 .pageBorder {
-  background-color: red;
+  border: 10px solid red;
   margin-right: auto; 
   margin-left:  auto; 
-  padding-right: 10px; /* 3 */
-  padding-left:  10px; /* 3 */
+
 }
 
 main {
