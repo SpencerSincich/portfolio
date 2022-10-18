@@ -18,6 +18,12 @@ body {
 
 }
 
+.aboveBorder {
+  clear: none;
+  text-align: right;
+  color: white;
+}
+
 main {
   display: block;
 }
