@@ -8,16 +8,14 @@ html {
 
 body {
   margin: 0;
+  height: 20px;
+  background-color: red;
 }
 
 main {
   display: block;
 }
 
-.borderPortfolio {
-  height: 20px;
-  background-color: red;
-}
 
 h1 {
   font-size: 2em;
