@@ -19,7 +19,8 @@ body {
 }
 
 span.aboveBorder {
-  margin-top: -30px;
+  float: right;
+  clear: both;
   text-align: right;
   color: white;
   font-size: 1em;
