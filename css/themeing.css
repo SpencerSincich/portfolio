@@ -12,8 +12,8 @@ body {
 }
 
 .pageBorder {
-  border-top: 50px solid #999999;
-    border-bottom: 50px solid #999999;
+  border-top: 50px solid #d9d9d9;
+    border-bottom: 50px solid #d9d9d9;
 
 }
 
@@ -21,7 +21,7 @@ span.aboveBorder {
   float: right;
   clear: both;
   margin-top: -40px;
-  color: white;
+  color: #101010;
   font-size: 1.5em;
   font-weight: 600;
   padding-right: 80px;
