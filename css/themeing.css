@@ -14,6 +14,8 @@ body {
 .pageBorder {
   border-top: 50px solid #f3f7fb;
     border-bottom: 50px solid #f3f7fb;
+    box-shadow:
+    inset 0 0 0 4px red;
 
 }
 
