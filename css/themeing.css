@@ -21,14 +21,6 @@ span.aboveBorder {
   padding-right: 80px;
 }
 
-
-@media screen and (max-width:700px) {
-span.aboveBorder {
-  margin-top: -32px;
-
-}
-}
-
 span.belowBorder {
     float: right;
   margin-top: 5px;
@@ -36,8 +28,21 @@ span.belowBorder {
   font-size: 1.2em;
   padding-right: 10px;
 
+}
+
+
+@media screen and (max-width:700px) {
+span.aboveBorder {
+  margin-top: -32px;
 
 }
+
+span.belowBorder {
+  margin-top: 10px;
+
+}
+}
+
 
 .pageBorder {
   border-top: 40px solid #f3f7fb;
