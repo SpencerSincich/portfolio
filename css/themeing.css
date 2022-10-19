@@ -12,9 +12,8 @@ body {
 }
 
 .pageBorder {
-  border: 50px solid #666666;
-  margin-right: auto; 
-  margin-left:  auto; 
+  border-top: 50px solid #666666;
+    border-bottom: 50px solid #666666;
 
 }
 
