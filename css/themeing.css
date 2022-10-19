@@ -36,11 +36,12 @@ span.aboveBorder {
 }
 
 span.belowBorder {
-  margin-bottom: 35px;
+  margin-bottom: 36px;
   float: right;
   color: #939393;
   font-size: 1.3em;
   padding-right: 80px;
+  padding-bottom: 0px;
 
 }
 
