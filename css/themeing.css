@@ -42,7 +42,7 @@ span.belowBorder {
   border-top: 40px solid #f3f7fb;
     border-bottom: 40px solid #f3f7fb;
 margin-bottom: 0px;
-padding-bottom: 0px;
+padding-bottom: -10px;
 }
 
 main {
