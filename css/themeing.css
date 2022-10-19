@@ -11,12 +11,6 @@ body {
 
 }
 
-.pageBorder {
-  border-top: 40px solid #f3f7fb;
-    border-bottom: 40px solid #f3f7fb;
-
-}
-
 
 span.aboveBorder {
   float: right;
@@ -40,7 +34,15 @@ span.belowBorder {
   float: right;
   color: #939393;
   font-size: 1.3em;
+  padding-right: 10px;
 
+}
+
+.pageBorder {
+  border-top: 40px solid #f3f7fb;
+    border-bottom: 40px solid #f3f7fb;
+margin-bottom: 0px;
+padding-bottom: 0px;
 }
 
 main {
