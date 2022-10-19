@@ -27,11 +27,21 @@ span.aboveBorder {
   padding-right: 80px;
 }
 
+
 @media screen and (max-width:700px) {
 span.aboveBorder {
   margin-top: -32px;
 
 }
+
+span.belowBorder {
+  margin-bottom: 35px;
+  clear: both;
+  float: right;
+  color: #939393;
+  font-size: 1.3em;
+  padding-right: 80px;
+
 }
 
 main {
