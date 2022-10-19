@@ -31,9 +31,9 @@ span.aboveBorder {
 
 span.belowBorder {
     float: right;
-  margin-bottom: 3px;
+  margin-bottom: 0px;
   color: #939393;
-  font-size: 1.3em;
+  font-size: 1.2em;
   padding-right: 10px;
 
 }
