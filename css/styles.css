@@ -900,13 +900,13 @@ height: 100%;
 
   	span.aboveBorder {
   max-width: 300px;
-  width: 100%;
+  
 
 }
 
 .pageBorder {
 	height: 100%;
-
+width: 100%;
 
 }
 
