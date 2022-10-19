@@ -18,8 +18,8 @@ body {
 }
 
 .pageInnerBorder {
-  border-top: 4px solid red;
-    border-bottom: 4px solid red;
+  border-top: 1px solid #5994c8;
+    border-bottom: 1px solid #5994c8;
 
 }
 
