@@ -38,7 +38,7 @@ span.aboveBorder {
 }
 
 span.belowBorder {
-  margin-top: 10px;
+  padding-top: 10px;
 
 }
 }
