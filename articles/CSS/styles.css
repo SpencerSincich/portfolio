@@ -35,7 +35,6 @@ span.breadcrumbsParagraph {
   font-size: 14px;
   color: #999999;
   margin-left: 20px;
-  padding-top: 2px;
 
 }
 
@@ -51,6 +50,7 @@ span.breadcrumbsParagraph a {
 }
 
 span.breadcrumbsParagraph a:hover {
+  margin-top: 6px;
   text-decoration: none;
     border-bottom: 1px solid #0070C0;
     -o-transition:.4s;
@@ -264,7 +264,7 @@ span.searchDiv {
   display: inline-block;
   float: right;
   padding-top: 0px;
-  margin-top: -5px;
+  margin-top: -9px;
   margin-right: 40px;
 }
 
@@ -297,7 +297,7 @@ form.searchBoxAndButton input[type=text] {
   background-color: #ffffff;
   height: 60px;
   margin-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 34px;
   padding-left: 40px;
   padding-right: 20px;
 
