@@ -250,10 +250,16 @@ header {
 }
 
 
-header img {
-  max-height: 49px;
-  margin-top: 22px;
+header a {
+
   margin-left: 60px;
+      display: block;
+  padding-top: 35px;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  color: #939393;
+  text-decoration: none;
+  font-weight: 600;
 
 }
 
@@ -264,7 +270,7 @@ span.searchDiv {
   display: inline-block;
   float: right;
   padding-top: 0px;
-  margin-top: -9px;
+  margin-top: -8px;
   margin-right: 40px;
 }
 
@@ -525,11 +531,6 @@ footer.underfloat {
     padding-bottom: 40px;
   }
 
-  header img {
-  margin-left: 20px;
-
-}
-
 
   div.articleTitle {
     padding-left: 20px;  
@@ -551,8 +552,11 @@ div.asideItemOff {
 
 @media screen and (max-width: 719px)  {
 
+   header a {
+    margin-left: 20px;
+  }
+  
   .articleContainer {
-
   float: left;
   width: 100%;
     margin: 0px auto;
