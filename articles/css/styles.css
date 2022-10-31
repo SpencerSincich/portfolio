@@ -246,6 +246,10 @@ div.tabLeft {
   width: 450px;
 }
 
+.instructionsArticle img.definitionsImage {
+  width: 420px;
+}
+
 
 /* HEADER SECTION
 */
@@ -569,6 +573,10 @@ footer.underfloat {
 
 @media screen and (max-width: 550px)  {
   .instructionsArticle img.fullpageSmaller {
+  width: 100%;
+}
+
+  .instructionsArticle img.definitionsImage {
   width: 100%;
 }
 }
