@@ -242,6 +242,10 @@ div.tabLeft {
   width: 100%;
 }
 
+.instructionsArticle img.fullpageSmaller {
+  width: 450px;
+}
+
 
 /* HEADER SECTION
 */
@@ -498,7 +502,6 @@ footer.underfloat {
 
 @media screen and (max-width:959px) {
 
-
   aside.articlesInSection {
     display: none;
   }
@@ -561,6 +564,13 @@ footer.underfloat {
     padding-left: 20px;
   }
 
+}
+
+
+@media screen and (max-width: 550px)  {
+  .instructionsArticle img.fullpageSmaller {
+  width: 100%;
+}
 }
 
 
