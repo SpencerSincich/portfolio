@@ -603,6 +603,10 @@ table {
   clear: both;
 }
 
+div.breakURL {
+  word-break: break-all;
+}
+
 
 /* Tables customized for Team Tasks "user permissions": table, tr, th, td */
 
