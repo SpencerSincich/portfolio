@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <!--METADATA-->
+
+    <title>View current weather data from the OpenWeather REST API in the Postman app</title>
+
+    <meta charset="UTF-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content=""/>
+
+    <meta name=""/>
+
+    <meta name="author" content="Spencer Sincich"/>
+
+    <!--FAVICON-->
+
+    <link rel="icon" href="images/favicon.png">
+
+    <!--CSS STYLESHEET LINK-->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+
+  <body>
+
+<!--HEADER-->
+
+    <header>
+
+      <a href="">
+
+        Spencer S. - Technical Writer
+
+      </a>
+
+    </header>
+
+          <section class="breadcrumbsAndSearch">
+
+        <span class="breadcrumbsParagraph"><a href="">Portfolio</a> > <a href="">APIs</a></span>
+
+        <span class="searchSpan">
+      
+        <form class="searchBoxAndButton" action="#">
+                      
+          <input type="text" placeholder="Search.." name="search">
+
+        </form>
+
+      </span>
+
+      </section>
+
+
+      <!--ASIDE FOR ARTICLES IN SECTION -->
+
+      <aside class="articlesInSection">
+
+        <p>Articles in section</p>
+
+            <div class="asideItemOn"><a href="">View current weather data from the OpenWeather REST API in the Postman app</a></div>
+
+      </aside>
+
+    </div>
+
+
+<!--ARTICLE CONTAINER-->
+
+<div class="articleContainer">
+
+<div class="articleTitle">View current weather data from the OpenWeather REST API in the Postman app</div>
+
+      <article class="instructionsArticle">
+
+        <h2>Introduction</h2>
+        <div>An example use case for the OpenWeather REST API is:</div>
+        <div class="tabLeft">You're creating a website to display today's weather.</div>
+        <div class="shortenedHeight">&nbsp;</div>
+        <div class="beforeOLUL">
+          This article explains how to view the JSON for the weather data, including:&nbsp;
+        </div>
+        <ul>
+          <li>Description.</li>
+          <li>Temperature.</li>
+        </ul>
+        <div>
+          <h2>View your API key</h2>
+          <blockquote>
+            <em>Note</em>: After you create your API key, you will need to wait 1-3 hours
+            for the key to activate.
+          </blockquote>
+          <ol>
+            <li>
+              Go to:
+              <a href="https://openweathermap.org" target="_blank" rel="noopener noreferrer">https://openweathermap.org</a>
+            </li>
+            <li>Scroll down to the page's footer.&nbsp;</li>
+            <li>
+              Click on "<strong>Subscribe for free</strong>". Then complete the form.
+            </li>
+            <li>
+              Open a new tab in your browser. Then open your email provider's app.
+            </li>
+            <li>
+              Log into your account. Then open the email sent by OpenWeather.
+            </li>
+            <li>
+              Click the button: "<strong>Verify your email</strong>".
+              <div class="tabLeft">
+                In your browser, you will see a <strong>new browser tab</strong>
+                appear displaying the OpenWeather app.
+              </div>
+            </li>
+            <li>
+              In your browser, close the <strong>previous browser tab</strong> displaying
+              the OpenWeather app.
+            </li>
+            <li>
+              (Optional) Log out of your email account. Then close the browser tab.
+            </li>
+            <li>
+              On the OpenWeather app, click the <strong>sub-heading</strong>: "<strong>API Keys</strong>".
+              <div class="tabLeft">You will see your API key displayed in a table.</div>
+            </li>
+          </ol>
+          <h2>Input your API key</h2>
+          <ol>
+            <li>
+              Go to:
+              <a href="https://www.postman.com/" target="_blank" rel="noopener noreferrer">https://www.postman.com</a>
+            </li>
+            <li>
+              In the top-right corner, click: "<strong>Sign-up for free</strong>".
+              Then complete the form.
+            </li>
+            <li>
+              In the app's header, click "Workspaces" &gt; "My workspace". Then click
+              the "<strong>+</strong>" button in the subheader to open a new tab.
+            </li>
+            <li>
+              In the OpenWeather app, click the "<strong>API</strong>" button in header.
+            </li>
+            <li>
+              Under the heading, "Current Weather Data", click the button: "<strong>API doc</strong>".
+            </li>
+            <li>
+              Under the "API call" heading, highlight-then-copy the beginning section
+              of the URL.
+              <pre style="word-break: break-word;">https://api.openweathermap.org/data/2.5/weather</pre>
+            </li>
+            <li>
+              In the Postman app, paste the URL to the right of the "<strong>GET</strong>"
+              button.
+              <blockquote>
+                <em>Note</em>: If the API key isn't activated yet, you will receive
+                an error message in later steps.
+              </blockquote>
+            </li>
+            <li>
+              In the OpenWeather app, look under the "Parameters" heading to view which
+              are required:
+              <ul>
+                <li>lat, lon [geographic coordinates: latitude and longitude]</li>
+                <li>appid [your API key]</li>
+              </ul>
+              <blockquote>
+                <em>Note</em>: For this example, we use the approximate coordinates
+                for Toronto: "45, -80".
+              </blockquote>
+            </li>
+            <li>
+              In the top-right corner of the page, click on your
+              <strong>username</strong> &gt; "<strong>My API keys</strong>".
+            </li>
+            <li>Highlight-then-copy the API key.</li>
+            <li>
+              In the Postman app, you will see the subheading: "Parameters".
+              <blockquote>
+                <ol>
+                  <li>
+                    In the first field on the <strong>first row</strong>, type-in:
+                    "lat". In the second field type-in: "45".
+                  </li>
+                  <li>
+                    In the first field on the <strong>second row</strong>, type-in:
+                    "lon". In the second field type-in: "-80".
+                  </li>
+                  <li>
+                    In the first field on the <strong>third row</strong>, type-in:
+                    "appid". In the second field, paste your API key.
+                  </li>
+                </ol>
+              </blockquote>
+            </li>
+          </ol>
+          <h2>View the JSON data</h2>
+          <ol>
+            <li>
+              Click the blue "<strong>Send</strong>" button.
+            </li>
+            <li>
+              In the field at the bottom of the page, you will see the results formatted
+              in JSON. For example:
+<pre>{
+    "coord": {
+        "lon": -80,
+        "lat": 45
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            <span style="color: #3ff;">"description": "overcast clouds"</span>,
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        <span style="color: #3ff;">"temp": 293.89</span>,
+        "feels_like": 293.95,
+        "temp_min": 293.89,
+        "temp_max": 293.89,
+        "pressure": 1015,
+        "humidity": 74,
+        "sea_level": 1015,
+        "grnd_level": 994
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.21,
+        "deg": 283,
+        "gust": 4.81
+    },
+    "clouds": {
+        "all": 91
+    },
+    "dt": 1657735238,
+    "sys": {
+        "type": <span style="color: #3ff;">____</span>,
+        "id": <span style="color: #3ff;">____</span>,
+        "country": "CA",
+        "sunrise": 1657705540,
+        "sunset": 1657760724
+    },
+    "timezone": -14400,
+    "id": 6137276,
+    "name": "Sahanatien",
+    "cod": 200
+}</pre>
+
+            </li>
+            <li>
+              In the data, you can see the:
+              <ul>
+                <li>Description is: overcast clouds.</li>
+                <li>Temperature is: 293.89 Kelvin.</li>
+              </ul>
+            </li>
+          </ol>
+          <div>&nbsp;</div>
+          <div>&nbsp;</div>
+        </div>
+
+      </article>
+    </div>
+
+
+<!--FOOTER WITH TWO PARTS - TOP AND BOTTOM-->
+
+    <footer class="underfloat">
+
+<!--TOP FOOTER-->
+
+      <div class="topFooter">
+
+    
+<div class="footerText"><a class="footerText" href="">Return to top</a></div>
+
+      </div>
+
+<!--BOTTOM FOOTER-->
+
+            <div class="bottomFooter">
+
+    
+
+<div class="footerText"><a href="">Portfolio</a></div>
+
+      </div>
+
+
+    </footer>
+
+  </body>
+
+</html>
