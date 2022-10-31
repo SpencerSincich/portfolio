@@ -48,6 +48,7 @@ h3 {
   font-weight: 600;
 }
 
+
 span.breadcrumbsParagraph {
   font-family: Verdana, sans serif;
   font-size: 14px;
@@ -77,6 +78,9 @@ span.breadcrumbsParagraph a:hover {
 }
 
 article.instructionsArticle a {
+  font-family: 16px;
+  line-height: 2.2em;
+  font-family: verdana, sans, serif;
   border-bottom: 1px solid #2799be;
   color: #1f73b7;
   text-decoration: none;
@@ -524,6 +528,9 @@ footer.underfloat {
 
 }
 
+
+/*YOUTUBE VIDEOS*/
+
 .videoContainer {
     position: relative;
     width: 100%;
@@ -536,4 +543,90 @@ footer.underfloat {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+
+/* Tables */
+
+table {
+  font-family: verdana, sans-serif;
+  color: #666666;
+  font-size: 16px;
+  line-height: 2.2;
+  word-wrap: break-word;
+}
+
+.refListContents {
+  margin-top: 10px;
+  float: right;
+  text-align: right;
+}
+
+.afterRefListContents {
+  clear: both;
+}
+
+
+/* Tables customized for Team Tasks "user permissions": table, tr, th, td */
+
+table.userPermissions {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #d4d4d4;
+
+}
+
+tr:nth-child(even).userPermissions {
+background-color: rgba(173, 216, 230, 0.2);
+
+}
+
+td.userPermissionsLeft  {
+  width: 40%;
+  padding-top: 16px;
+  padding-right: 20px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    line-height: 2em;
+}
+
+td.userPermissionsRight  {
+  text-align: center;
+  width: 60%;
+  padding-top: 16px;
+  padding-right: 20px;
+    padding-bottom: 16px;
+    padding-left: 6px;
+    line-height: 2em;
+}
+
+
+/* Tables customized for Scribble Maps' "preset headings": table, tr, th, td */
+
+table.presetHeadings {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #d4d4d4;
+}
+
+tr:nth-child(even).presetHeadings {
+background-color: rgba(173, 216, 230, 0.2);
+
+}
+
+td.presetHeadingsLeft  {
+  width: 40%;
+  padding-top: 6px;
+  padding-right: 20px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+}
+
+td.presetHeadingsRight  {
+  width: 60%;
+  padding-top: 6px;
+  padding-right: 20px;
+    padding-bottom: 6px;
+    padding-left: 6px;
 }
