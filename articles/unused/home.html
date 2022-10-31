@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <title>Home | Xpenditure</title>
+
+    <meta charset="UTF-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="Xpenditure app, home"/>
+
+    <meta name="description" content="Xpenditure app. Home."/>
+
+    <meta name="author" content="Spencer Sincich"/>
+
+    <!--SHIV TO MAKE HTML5 WORK ON OLD INTERNET EXPLORER-->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <!--BOOTSTRAP LINK-->
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!--FAVICON-->
+
+    <link rel="icon" href="images/xpenditureFavicon.png">
+
+    <!--CSS STYLESHEET LINK-->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+
+  <body>
+
+<!--HEADER-->
+
+    <header>
+
+      <div class="siteDescription">
+
+        <p class="siteName">Xpenditure app - Help center</p>
+
+      </div>
+
+      <a href="home.html">
+
+        <img src="images/xpenditure-logo.png" alt="Xpenditure logo">
+
+      </a>
+
+    </header>
+
+
+<!--NAVIGATION-->
+
+    <nav>
+
+      <!-- SEARCH BOX AND BUTTON -->
+
+      <div class="searchDiv">
+      
+        <form class="searchBoxAndButton" action="#">
+                      
+          <input type="text" placeholder="Search.." name="search">
+
+          <button type="submit"><i class="fa fa-search"></i></button>
+
+        </form>
+
+      </div>
+
+
+      <!--HAMBURGER MENU-->
+
+      <div class="toggle">
+
+        <i class="fa fa-bars menu" aria-hidden="true"></i>
+
+      </div>
+
+      <ul>
+
+        <li><a href="home.html" class="on">Home</a></li>
+
+        <li><a href="instructions.html">Instructions</a></li>
+
+        <li><a href="copyright.html">Copyright</a></li>
+
+      </ul>
+
+    </nav>
+
+    <!--FUNCTION TO MAKE DROPDOWN-LIST APPEAR WHEN HAMBURGER MENU PRESSED-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.menu').click(function(){
+          $('ul').toggleClass('active')
+        })
+      })
+    </script>
+
+
+<!--START OF THE RESPONSIVE CONTAINER FOR THE PAGE'S CONTENT-->
+
+    <div class="container">
+
+
+<!--BREADCRUMBS SECTION-->
+
+      <section class="breadcrumbsSection">
+
+        <p class="breadcrumbsParagraph"> Home</p>
+
+      </section>
+
+
+<!--ARTICLE - THE INSTRUCTIONS-->
+
+      <article class="instructionsArticle">
+
+          <br>
+
+        <a href="https://www.rydoo.com/" target="_blank">
+          <img src="images/xpenditure-logo-full.png" alt="Xpenditure logo-full">
+        </a>
+
+        <br>
+
+        <br>
+
+
+        <p class="topParagraph">
+
+          <a href="https://www.rydoo.com/" target="_blank">Xpenditure</a> is an expense reporting app that helps you save time when preparing and sending expense reports to your company's office.
+        </p>
+
+          <br>
+
+          <br>
+
+          <br>
+
+          <br>
+
+      </article>
+
+
+<!--ASIDE FOR LIST OF INSTRUCTIONS-->
+
+      <aside class="relatedArticles">
+
+        <h3>Articles</h3>
+
+          <br>
+
+        <ul>
+            <li class="relatedArticles"><a href="scan-a-receipt.html">Scan a receipt</a></li>
+
+            <li class="relatedArticles"><a href="prepare-an-expense-report.html">Prepare an expense report</a></li>
+
+            <li class="relatedArticles"><a href="submit-an-expense-report.html">Submit an expense report</a></li>
+
+        </ul>
+
+      </aside>
+
+    </div>
+
+
+<!--FOOTER WITH THREE PARTS - TOP (removed), MIDDLE, AND BOTTOM-->
+
+    <footer class="underfloat">
+
+
+<!--MIDDLE FOOTER-->
+
+      <div class="middleFooter">
+
+        <a href="home.html"><img src="images/xpenditure-logo.png" alt="Xpenditure logo" class="footerLogo" ></a>
+
+      <!--TWO LISTS OF LINKS - LEFT AND RIGHT-->
+
+        <div class="footerListRight">
+
+          <ul>
+
+            <li><a href="">Privacy policy</a></li>
+
+            <li><a href="">Sitemap</a></li>
+
+            <li><a href="">Contact support</a></li>
+
+          </ul>
+
+        </div>
+
+        <div class="footerListLeft">
+
+          <ul>
+
+            <li><a href="">Links - N/A  </a></li>
+
+            <li><a href="">About Xpenditure</a></li>
+
+            <li><a href="">Terms of use</a></li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+<!--BOTTOM FOOTER-->
+
+      <div class="bottomFooter">
+
+        <br />
+
+      <!--SOCIAL MEDIA ICONS-->
+
+      <div class="smlogos">
+
+        <a href="https://www.facebook.com/Rydooapp/" target="_blank" ><img src="images/sm1.png" width="40px" alt="" /></a>
+
+        <a href="https://twitter.com/Rydooapp" target="_blank" ><img src="images/sm2.png" width="40px" alt="" /></a>
+
+        <a href="https://www.instagram.com/rydoo/?hl=en" target="_blank" ><img src="images/sm3.png" width="40px" alt="" /></a>
+
+      </div>
+
+      <!--COPYRIGHT INFORMATION-->
+
+
+      <p class="copyrightInfo">Copyright - N/A</p>
+
+        <br />
+
+    </footer>
+
+  </body>
+
+</html>
