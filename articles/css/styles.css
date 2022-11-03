@@ -115,6 +115,30 @@ article.instructionsArticle a:hover {
   transition:.4s;
 }
 
+article.sectionsArticle a {
+  font-family: 16px;
+  line-height: 2.2em;
+  font-family: verdana, sans, serif;
+  border-bottom: 1px solid #fff;
+  color: #1f73b7;
+  text-decoration: none;
+  -o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  transition:.4s;
+}
+
+article.sectionsArticle a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #2799be;
+  -o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  transition:.4s;
+}
+
 p {
   font-size: 17px;
   font-family: verdana, sans-serif;
@@ -325,6 +349,17 @@ form.searchBoxAndButton input::placeholder {
 }
 
 article.instructionsArticle {
+  width: 550px;
+  min-height: 500px;
+  background: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin: 0px auto;
+}
+
+article.sectionsArticle {
   width: 550px;
   min-height: 500px;
   background: white;
@@ -547,6 +582,13 @@ footer.underfloat {
     margin: 0px auto;
     
   }
+
+  article.sectionsArticle {
+  float: left;
+  width: 100%;
+  margin: 0px auto;
+  
+}
 
   div.articleTitle { 
     float: left;
