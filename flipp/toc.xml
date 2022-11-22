@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><toc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns="http://www.oxygenxml.com/ns/webhelp/toc">
+   <title><span xmlns="http://www.w3.org/1999/xhtml" class="title">Flipp - How to use the mobile app - (Android version)</span></title>
+   <topic href="concepts/cpt_descriptionoftheapp.html" data-id="concept_dhz_3v2_5bb" wh-toc-id="concept_dhz_3v2_5bb-d66e11">
+      <title>Description</title>
+      <shortdesc>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+      </shortdesc>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="concept_dhz_3v2_5bb"></resourceid>
+         <navtitle class="- topic/navtitle ">Description</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Description</linktext><?ditaot genshortdesc?>
+         <shortdesc class="- map/shortdesc "></shortdesc>
+      </topicmeta>
+   </topic>
+   <topic href="topics/tpc_instructions.html" data-id="tpc_instructions" wh-toc-id="tpc_instructions-d66e22">
+      <title>Instructions</title>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="tpc_instructions"></resourceid>
+         <navtitle class="- topic/navtitle ">Instructions</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Instructions</linktext>
+      </topicmeta>
+      <topic href="tasks/tsk_howtofindaretailersflyers.html" data-id="tsk_howtofindaretailersflyers" wh-toc-id="tsk_howtofindaretailersflyers-d66e30">
+         <title><strong xmlns="http://www.w3.org/1999/xhtml" class="ph b">How to find a retailer's flyers</strong></title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Finding a retailer's flyers enables you to view all of a retailer's current         flyers.</p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="tsk_howtofindaretailersflyers"></resourceid>
+            <navtitle class="- topic/navtitle ">
+               <b class="+ topic/ph hi-d/b ">How to find a retailer's flyers</b>
+            </navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">How to find a retailer's flyers</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Finding a retailer's flyers enables you to view all of a retailer's current         flyers.</shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="tasks/tsk_howtoaddaproducttoyourshoppinglist.html" data-id="tsk_howtoaddaproducttoyourshoppinglist" wh-toc-id="tsk_howtoaddaproducttoyourshoppinglist-d66e42">
+         <title><strong xmlns="http://www.w3.org/1999/xhtml" class="ph b">How to add a product to your shopping list</strong></title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Adding a product to your shopping list enables you to create a shopping list that         includes general items and specific
+               products.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="tsk_howtoaddaproducttoyourshoppinglist"></resourceid>
+            <navtitle class="- topic/navtitle ">
+               <b class="+ topic/ph hi-d/b ">How to add a product to your shopping list</b>
+            </navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">How to add a product to your shopping list</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Adding a product to your shopping list enables you to create a shopping list that         includes general items and specific
+               products.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="tasks/tsk_howtousedealfinder.html" data-id="tsk_howtousedealfinder" wh-toc-id="tsk_howtousedealfinder-d66e54">
+         <title><strong xmlns="http://www.w3.org/1999/xhtml" class="ph b">How to use the Deal Finder</strong></title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Using the Deal Finder enables you to quickly find all of the products that are priced         more than a certain percentage-off
+               of the regular price.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="tsk_howtousedealfinder"></resourceid>
+            <navtitle class="- topic/navtitle ">
+               <b class="+ topic/ph hi-d/b ">How to use the Deal Finder</b>
+            </navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">How to use the Deal Finder</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Using the Deal Finder enables you to quickly find all of the products that are priced         more than a certain percentage-off
+               of the regular price.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="tasks/tsk_howtoinvite.html" data-id="tsk_howtoinvite" wh-toc-id="tsk_howtoinvite-d66e66">
+         <title><strong xmlns="http://www.w3.org/1999/xhtml" class="ph b">How to invite a friend to collaborate on a Shared List</strong></title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Inviting a friend to collaborate on a Shared List enables you to send an invitation         to a friend asking them to collaborate
+               on a shopping list.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="tsk_howtoinvite"></resourceid>
+            <navtitle class="- topic/navtitle ">
+               <b class="+ topic/ph hi-d/b ">How to invite a friend to collaborate on a Shared List</b>
+            </navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">How to invite a friend to collaborate on a Shared List</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Inviting a friend to collaborate on a Shared List enables you to send an invitation         to a friend asking them to collaborate
+               on a shopping list.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="tasks/tsk_howtostorecard.html" data-id="tsk_howtostorecard" wh-toc-id="tsk_howtostorecard-d66e78">
+         <title><strong xmlns="http://www.w3.org/1999/xhtml" class="ph b">How to store your loyalty card</strong></title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Storing your loyalty card enables you to use your smartphone instead of your physical loyalty card when checking-out at your
+               retailer’s cash register.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="tsk_howtostorecard"></resourceid>
+            <navtitle class="- topic/navtitle ">
+               <b class="+ topic/ph hi-d/b ">How to store your loyalty card</b>
+            </navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">How to store your loyalty card</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Storing your loyalty card enables you to use your smartphone instead of your physical loyalty card when checking-out at your
+               retailer’s cash register.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+   </topic>
+   <topic href="concepts/cpt_copyright.html" data-id="cpt_copyright" wh-toc-id="cpt_copyright-d66e91">
+      <title>Copyright</title>
+      <shortdesc>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+      </shortdesc>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="cpt_copyright"></resourceid>
+         <navtitle class="- topic/navtitle ">Copyright</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Copyright</linktext><?ditaot genshortdesc?>
+         <shortdesc class="- map/shortdesc "></shortdesc>
+      </topicmeta>
+   </topic>
+</toc>
